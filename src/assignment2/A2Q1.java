@@ -38,9 +38,11 @@ public class A2Q1 {
         System.out.println("digitalsum (126)");
         int digitalSum = test.digitalSum(126);
         System.out.println(digitalSum);
+        
         System.out.println("digitalsum (49)");
         int Sum1 = test.digitalSum(49);
         System.out.println(Sum1);
+        
         System.out.println("digitalsum (12)");
         int Sum2 = test.digitalSum(12);
         System.out.println(Sum2);
