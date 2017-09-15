@@ -14,7 +14,7 @@ public class A2Q1 {
  
     public int digitalSum (int n){
         
-        //create an if statement that is the 10 is greater than the number
+        //create an if statement that if the 10 is greater than the number
         if(n < 10){
             //it will go back to the number itself
             return n;
