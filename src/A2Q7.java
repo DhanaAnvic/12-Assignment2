@@ -20,12 +20,12 @@ public class A2Q7 {
         String first = s.substring(0,1);
         
         //create a new string for the last letter
-        String last = s.substring(s.length() -1, s.length());
+        String last = s.substring(s.length() - 1, s.length());
         
         //create an if statement if the first and the last letter equal together
         if(first.equals(last)){
             //use a subtring to seperate the letters
-            return isPalindrome(s.substring(1, length - 1), length -2);   
+            return isPalindrome(s.substring(1, length - 1), length - 2);   
         } else {
             //return false if the letters are not the same
             return false;
