@@ -18,7 +18,7 @@ public class A2Q6 {
       String[] answer = {"0", "1", "2","3", "4", "5", "6" , "7", "8", "9", "A", "B", "C", "D" , "E" , "F"};
       
       //create a base case
-      //create an if statement that is n is equals 0
+      //create an if statement that if n is equals 0
       if(n == 0) {
           //return to string named letters
           return letters;
