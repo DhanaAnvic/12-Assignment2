@@ -36,6 +36,7 @@ public class A2Q6 {
         
         //test out the boundaries
         A2Q6 test = new A2Q6();
+        System.out.println("convert(1000,16)");
         String Convertest = test.convert(1000,16);
         System.out.println(Convertest);
     }
